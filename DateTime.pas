@@ -3,5 +3,4 @@
   Assert(year > 0);
   var IsLeap := (year mod 4 = 0) and ((year mod 100 <> 0) or (year mod 400 = 0));
   Print($'Год високосный: {IsLeap}{newline}');
-  Print('В минуте 60 секунд');
 end.
