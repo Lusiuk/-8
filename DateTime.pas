@@ -16,4 +16,8 @@
     PrintLn($'1 дата ближе{newline}')
   else if (31 - frstDay) > (31 - scdDay) then
     PrintLn($'2 дата ближе{newline}')
+  if IsLeap then
+    Print('В году 366 дней')
+  else
+    Print('В году 365 дней');
 end.
