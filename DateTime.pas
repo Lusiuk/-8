@@ -37,4 +37,9 @@
   end;
   
   PrintLn($'Сумма дней: {DaysBtw}');
+  
+  var hour := ReadInteger('Введите кол-во часов:');
+  Assert(hour >= 0);
+  Print($'Количество секунд: {hour * 3600}');
+  
 end.
